@@ -1,0 +1,102 @@
+body>header {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body>header>a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+/* Pizza conmigo */
+body>header>a p {
+    color: black;
+    margin: 0;
+    font-size: 1.75rem;
+    font-family: "Parisienne", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+/* Imagen */
+body>header>a picture img {
+    width: 4rem;
+    text-decoration: none;
+}
+
+body>header>nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+body>header>nav a {
+    font-weight: 400;
+}
+
+body>header>form {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+body>header>form input[type='checkbox'] {
+    display: none;
+}
+
+/* > hijo directo*/
+
+body>header>form label {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>header>form label svg {
+    fill: var(--text-white);
+    width: 100%;
+    height: 100%;
+}
+
+[for="btnMenu"] {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width:1032px) {
+    body>header>nav {
+        display: none;
+    }
+
+    body>header>form {
+        flex: 1;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+
+    [for="btnMenu"] {
+        display: flex;
+    }
+}
