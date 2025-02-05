@@ -2,3 +2,10 @@
 
 /* Navbar */
 @import url('./navbar.css');
+
+/* Hero */
+@import url('./hero.css');
+
+
+/* Destacados */
+@import url("./destacados.css");

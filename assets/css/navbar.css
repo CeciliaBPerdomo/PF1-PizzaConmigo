@@ -1,6 +1,7 @@
 body>header {
     width: 100vw;
-
+    background-color: #FFFCF5;
+    
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -33,8 +34,6 @@ body>header>a p {
     font-style: normal;
 
 }
-
-
 
 /* Imagen */
 body>header>a picture img {

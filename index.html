@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Pizza ConMigo</title>
+    <title>Pizza Conmigo</title>
 </head>
+
 <body>
     <!-- Navbar -->
     <header>
@@ -22,7 +24,7 @@
         </nav>
 
         <form>
-            <label for="btnMenu"><img src="./assets/img/menu.png"></label>
+            <label for="btnMenu"><img src="./assets/images/menu.png"></label>
             <input type="checkbox" id="btnMenu">
 
             <label for="btnCarrito">
@@ -34,8 +36,56 @@
             </label>
             <input type="checkbox" id="btnCarrito">
         </form>
-    </header> 
+    </header>
 
-    
+    <!-- Hero -->
+    <main>
+        <article id="content-hero">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M297.4 9.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L338.7 160 128 160c-35.3 0-64 28.7-64 64l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32C0 153.3 57.3 96 128 96l210.7 0L297.4 54.6c-12.5-12.5-12.5-32.8 0-45.3zm-96 256c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 416 96 416c-17.7 0-32 14.3-32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-53 43-96 96-96l146.7 0-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3z"/>
+                </svg>
+                Las mejores pizzas!
+            </a>
+            <h1>Más que una <span>pizza</span>, una experiencia inolvidable!</h1>
+            <p>¡Sabores que enamoran, pizzas que conquistan! 🍕🔥</p>
+            <p>
+                Bienvenido a <strong>Pizza conmigo</strong>, donde cada bocado es una experiencia inolvidable.
+                Disfruta de nuestras pizzas artesanales, con ingredientes frescos y masas crujientes hechas con
+                ❤️ amor.
+            </p>
+            <p>
+                📍 Visítanos o haz tu pedido online y deja que el mejor sabor llegue a tu puerta. 
+            </p>
+            <p>¡Te esperamos! 🚀🍕</p>
+            <a href="#">Pedir ahora!</a>
+        </article>
+
+        <article id="card-hero">
+            <picture>
+                <img src="./assets/images/hero.png" alt="Pizza">
+            </picture>
+        </article>
+    </main>
+
+
+    <!-- Destacados -->
+    <section id="destacados">
+        <header>
+            <form method="get">
+                <input type="radio" name="categoria" id="c-premiadas" value="todas">
+                <label for="c-todas" class="active">🏆 Las más premiadas</label>
+
+                <input type="radio" name="categoria" id="c-futbol" value="futbol">
+                <label for="c-futbol">🍕 + de 25 sabores</label>
+
+                <input type="radio" name="categoria" id="c-musica" value="musica">
+                <label for="c-musica">
+                    🧑‍🍳 Los mejores chefs!</label>
+            </form>
+        </header>
+    </section>
+
 </body>
+
 </html>
