@@ -1,5 +1,4 @@
 #equipo {
-    background-color: #F2B3AE;
     width: 1800px;
     display: flex;
     flex-direction: column;
@@ -18,7 +17,6 @@
 
 #equipo h2 {
     align-self: center;
-    /* Centra el h2 sin afectar el <a> */
     text-align: center;
     font-size: 2rem;
 }
@@ -31,6 +29,12 @@
     border: 0.1rem solid #F25135;
     background-color: transparent;
     color: #F25135;
+}
+
+#equipo header>a:hover {
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 

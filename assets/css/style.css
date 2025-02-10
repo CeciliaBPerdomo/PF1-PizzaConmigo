@@ -12,3 +12,6 @@
 
 /* Nuestro Equipo */
 @import url("./equipo.css");
+
+/* Productos */
+@import url('./productos.css');
