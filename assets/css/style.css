@@ -1,3 +1,4 @@
+/* Base */
 @import url('./base.css');
 
 /* Navbar */
@@ -5,7 +6,6 @@
 
 /* Hero */
 @import url('./hero.css');
-
 
 /* Destacados */
 @import url("./destacados.css");
@@ -15,3 +15,9 @@
 
 /* Productos */
 @import url('./productos.css');
+
+/* Contacto */
+@import url('./contacto.css');
+
+/* Footer */
+@import url('./footer.css');

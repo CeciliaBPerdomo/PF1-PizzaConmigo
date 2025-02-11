@@ -1,0 +1,42 @@
+#contacto {
+    width: 100%;
+    border: 0.01rem solid #F2B3AE;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: #F2B3AE;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+
+    margin-bottom: 1rem;
+}
+
+#contacto>header{
+    display: flex;
+    padding-top: 1rem;
+}
+
+#contacto>header>h3{
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+#formulario {
+    width: 65%; 
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#formulario input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+
