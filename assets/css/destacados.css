@@ -7,6 +7,13 @@
     align-content: flex-start;
     padding: 3rem 0;
     gap: 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4rem);
+    
+    animation: slideUp 1s ease-out 350ms 1 forwards;
+
 }
 
 #destacados header {
@@ -45,6 +52,19 @@
     gap: 1rem;
 }
 
-/* #destacados header form label.active {
-   
-} */
+
+
+/* Animaciones */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(4rem);
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
+}

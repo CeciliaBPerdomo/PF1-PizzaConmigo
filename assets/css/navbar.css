@@ -1,10 +1,27 @@
+body::before {
+    content: "";
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgba(252, 252, 252, 0.4);
+    backdrop-filter: blur(0.025);
+    display: none;
+}
+
+body:has(#navbar input[type="checkbox"]:checked)::before {
+    display: flex;
+}
+
 body>header {
     width: 100vw;
     background-color: #FFFCF5;
 
     display: flex;
     justify-content: space-between;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
     align-items: center;
     gap: 1rem;
     padding: 0.75rem;
@@ -52,6 +69,7 @@ body>header>nav a {
     gap: 0.25rem;
 }
 
+/* Subrayado */
 body>header>nav a::after {
     content: "";
     width: 100%;
@@ -118,9 +136,10 @@ body>header>form>nav a {
 @media (max-width:1032px) {
     body>header>nav {
         display: none;
+        cursor: pointer;
     }
 
-    body>header>form {
+    body>header>nav {
         flex: 1;
         flex-direction: row-reverse;
         justify-content: flex-start;
@@ -130,12 +149,24 @@ body>header>form>nav a {
         display: flex;
     }
 
-    #navbar nav a {
-        display: none;
+    body>header>form>nav  {
+        text-align: center;
+       
+        z-index: 1;
+        gap: 1rem;
+
+        transform: translateY(-100vh);
+        transition: all 500ms;
+        border: 0.01rem solid black;
+    }
+
+    body>header>form>nav a {
+        transition: all 500ms ease-in-out;
     }
 
     #btnMenu:checked~nav a {
         display: block;
+        transform: translateX(0);
     }
 
     #btnMenu:checked~nav {
