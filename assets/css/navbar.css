@@ -4,7 +4,7 @@ body>header {
 
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     align-items: center;
     gap: 1rem;
     padding: 0.75rem;
@@ -34,23 +34,47 @@ body>header>a p {
     font-style: normal;
 }
 
-/* Imagen */
-body>header>a picture img {
-    width: 4rem;
-    text-decoration: none;
-}
-
-body>header>form>nav {
+/* Inicio de sesion y registro */
+body>header>nav {
     flex: 1;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
 }
 
-body>header>form>nav a {
+
+body>header>nav a {
+    color: black;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
 }
 
+body>header>nav a::after {
+    content: "";
+    width: 100%;
+    height: 0.05rem;
+    background-color: black;
+    transform-origin: right center;
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out;
+}
+
+body>header>nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left center;
+}
+
+/* Imagen */
+body>header>a picture img {
+    width: 4rem;
+    text-decoration: none;
+}
+
+
+/* Carrito y menu responsive */
 body>header>form {
     display: flex;
     gap: 1rem;
@@ -80,6 +104,14 @@ body>header>form label svg {
 
 [for="btnMenu"] {
     display: none;
+}
+
+body>header>form>nav {
+    display: none;
+}
+
+body>header>form>nav a {
+    font-weight: 400;
 }
 
 /* Responsive */
