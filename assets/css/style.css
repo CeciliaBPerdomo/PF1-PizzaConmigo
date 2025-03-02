@@ -21,3 +21,10 @@
 
 /* Footer */
 @import url('./footer.css');
+
+
+/* Login */
+@import url('./auth/login.css');
+
+/* Register */
+@import url('./auth/register.css');

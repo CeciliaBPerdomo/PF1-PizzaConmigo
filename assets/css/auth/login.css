@@ -1,0 +1,130 @@
+#login {
+    width: 1092px;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 0.1rem solid #F25135;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+#card-image-login {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    color: white;
+}
+
+#card-image-login > picture > img {
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#content-login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#content-login h1 {
+    font-size: 2.75rem;
+}
+
+#content-login h1 span {
+    color: orangered;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#login-form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#login-form input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#login-form button {
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#login-form button:hover {
+    background-color: #d84315;
+}
+
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+    color: orangered;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.register-link a {
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+#back-to-home {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.back-link {
+    font-size: 1.25rem;
+    color: #F25135;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid #F25135;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #F25135;
+    color: white;
+}
