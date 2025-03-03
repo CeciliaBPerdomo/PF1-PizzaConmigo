@@ -28,3 +28,6 @@
 
 /* Register */
 @import url('./auth/registro.css');
+
+/* Olvido de contraseña */
+@import url('./auth/olvido.css');
