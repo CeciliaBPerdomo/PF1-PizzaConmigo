@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Conmigo</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
-    Registro
+    <main id="register">
+        <!-- Imagen de inicio de sesion -->
+        <article id="card-image-register">
+            <picture>
+                <img src="../assets/images/auth/registro.jpeg" alt="Logo de Pizza Conmigo">
+            </picture>
+        </article>
+
+        <!-- Inicio de sesion -->
+        <article id="content-register">
+            <h1>Bienvenid@, ¡te estabamos<span> esperando!!</span></h1>
+            <p>Ingresa tus datos aquí</p>
+
+            <form id="register-form">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+
+                <label for="address">Dirección</label>
+                <input type="text" id="address" name="address" placeholder="Ingrese su dirección" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ingrese su teléfono" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+
+                <button>Registrarse</button>
+
+                <p class="login-link">
+                    ¿Ya tienes cuenta? 
+                </p>
+                <p class="login-link">
+                    <a href="./inicio.html">
+                        Inicia sesión aquí
+                    </a>
+                </p>
+            </form>
+
+        </article>
+    </main>
+    <article id="back-to-home">
+        <a href="/" class="back-link">
+            ← Volver a la página principal
+        </a>
+    </article>
 </body>
+
 </html>
