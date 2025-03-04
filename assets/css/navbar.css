@@ -132,8 +132,8 @@ body>header>form>nav a {
     font-weight: 400;
 }
 
-/* Responsive */
-@media (max-width:1032px) {
+/* Responsive para tablets */
+@media (max-width: 1100px) and (min-width: 768px) {
     body>header>nav {
         display: none;
         cursor: pointer;

@@ -96,7 +96,7 @@
 
 
 /* Responsive */
-@media (min-width: 769px) and (max-width:1024px) {
+@media (min-width: 769px) and (max-width:1100px) {
     #equipo header {
         width: 100%;
         display: flex;

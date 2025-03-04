@@ -79,8 +79,8 @@ body>main {
     animation: slideLeft 1s ease-out 200ms 1 forwards;
 }
 
-/* Responsive */
-@media (max-width:1032px) {
+/* Responsive para tablets */
+@media (max-width: 1100px) and (min-width: 769px) {
     #card-hero {
         width: 0%;
         display: none;

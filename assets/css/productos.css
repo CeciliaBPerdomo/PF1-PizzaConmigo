@@ -174,10 +174,10 @@
 
 
 /* Responsive para tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1100px) {
     #productos {
         width: 100%;
-        max-width: 900px; /* Limita el ancho para centrar el contenido */
+        max-width: 1024px; /* Limita el ancho para centrar el contenido */
         margin: 0 auto; /* Centrar en la pantalla */
         padding: 2rem;
         display: flex;
