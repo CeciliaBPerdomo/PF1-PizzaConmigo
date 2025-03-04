@@ -2,54 +2,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
 
-  * { 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  html { 
-    scrollbar-width: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #FFFCF5;
-    overflow-x: hidden;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-  }
-
-  label, button { 
-    cursor: pointer;
-  }
-
-
-  @media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html {
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFCF5;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+
+/* Responsive celulares */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Responsive tablets */
 @media (min-width:769px) and (max-width: 1100px) {
   body {
-      overflow-x: hidden;
+    overflow-x: hidden;
   }
 }
