@@ -71,11 +71,18 @@ hr {
 
 /* Responsive */
 @media (max-width: 768px) {
-
     /* Hecho por Cecilia */
     footer>p {
         width: 100%;
         font-size: 0.75rem;
+        text-align: center;
+        margin-top: -15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+    footer>p {
+        width: 100%;
         text-align: center;
         margin-top: -15px;
     }
