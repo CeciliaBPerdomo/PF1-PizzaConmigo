@@ -82,7 +82,44 @@ body>main {
 /* Responsive */
 @media (max-width:1032px) {
     #card-hero {
+        width: 0%;
         display: none;
+    }
+
+    #content-hero {
+        width: 100%;
+        text-align: center;
+        margin-left: -120px;
+    }
+
+    #content-hero h1 {
+        font-size: 2rem;
+    }
+
+    #content-hero a {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body > main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #content-hero {
+        width: 80%;
+        text-align: center;
+    }
+
+    #content-hero h1 {
+        font-size: 1.75rem;
+    }
+
+    #content-hero a {
+        width: 80%;
     }
 }
 
