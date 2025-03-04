@@ -69,6 +69,7 @@ hr {
     font-size: 1rem;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
     footer>p {
         width: 100%;
