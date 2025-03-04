@@ -115,3 +115,115 @@
 #productos>ul>li>ul>li.cart button:hover {
     background-color: darkred;
 }
+
+/* Responsive celulares */
+@media (max-width: 768px) {
+    #productos {
+        width: 100%; 
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        min-height: 100vh;
+    }
+
+    #productos header {
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    #productos header h2 {
+        font-size: 1.75rem; 
+    }
+
+    #productos > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%; 
+        align-content: center;
+    }
+
+    #productos > ul > li {
+        width: 90%; 
+        max-width: 350px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    #productos > ul > li > ul {
+        gap: 0.75rem;
+    }
+
+    #productos > ul > li > ul > li.info h3 {
+        font-size: 1.1rem; 
+    }
+
+    #productos > ul > li > ul > li.cart button {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+}
+
+
+/* Responsive para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #productos {
+        width: 100%;
+        max-width: 900px; /* Limita el ancho para centrar el contenido */
+        margin: 0 auto; /* Centrar en la pantalla */
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #productos header {
+        text-align: center;
+        gap: 2rem;
+    }
+
+    #productos header h2 {
+        font-size: 2rem;
+    }
+
+    #productos > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    #productos > ul > li {
+        width: 45%; 
+        max-width: 400px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #productos > ul > li > ul {
+        gap: 1rem;
+    }
+
+    #productos > ul > li > ul > li.info h3 {
+        font-size: 1.2rem;
+    }
+
+    #productos > ul > li > ul > li.cart button {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+}
