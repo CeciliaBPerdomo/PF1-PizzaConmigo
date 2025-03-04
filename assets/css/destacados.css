@@ -104,3 +104,46 @@
         visibility: visible;
     }
 }
+
+
+
+/* Responsive para celulares */
+@media (max-width: 1034px) {
+    #destacados {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    #destacados header {
+        gap: 2rem;
+    }
+
+    #destacados form {
+        flex-direction: column;
+        width: 60%;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+
+    #destacados form label {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0.75rem 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #destacados form label::before {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+        left: -0.5rem;
+    }
+}
+
