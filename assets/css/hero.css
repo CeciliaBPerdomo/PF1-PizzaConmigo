@@ -109,9 +109,15 @@ body>main {
         text-align: center;
     }
 
+    #card-hero {
+        width: 0%;
+        display: none;
+    }
+
     #content-hero {
         width: 80%;
         text-align: center;
+        margin-left: -120px;
     }
 
     #content-hero h1 {
