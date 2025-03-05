@@ -24,6 +24,7 @@
         </nav>
 
         <form id="navbar">
+            <!-- Menu de inicio de sesion y registro -->
             <input type="checkbox" id="btnMenu">
             <label for="btnMenu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -32,6 +33,7 @@
                 </svg>
             </label>
 
+            <!-- Carrito de compras -->
             <label for="btnCarrito">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                     <path
@@ -40,14 +42,36 @@
             </label>
             <input type="checkbox" id="btnCarrito">
 
-            <!-- Menu Responsive -->
+            <!-- Menu Responsive inicio de sesion y registro-->
             <nav>
                 <a title="Sección de inicio de sesión" href="./auth/inicio.html">Iniciar sesión</a>
                 <a title="Sección de registro" href="./auth/registro.html">Registrarse</a>
             </nav>
 
-            <!-- Responsive -->
-            <section id="carrito"></section>
+            <!-- Responsive del carrito-->
+            <section id="carrito">
+                <header>
+                    <h3>Tus pedidos 🛵</h3>
+                </header>
+                <ul>
+                    <li>
+                        <picture>
+                            <img src="./assets/images/pizzas/pizza3.png" alt="Pizza">
+                        </picture>
+                        <dl>
+                            <dd>Pizza Margarita</dd>
+                            <dd>$620</dd>
+                        </dl>
+
+                        <fieldset>
+                            <button type="button">-</button>
+                            <output>1</output>
+                            <button type="button">+</button>
+                        </fieldset>
+                    </li>
+                </ul>
+                <button id="confirmar">Confirmar pedido</button>
+            </section>
         </form>
     </header>
 
@@ -333,7 +357,7 @@
             </section>
         </section>
         <hr>
-        <p>Hecho con 💛 por 
+        <p>Hecho con 💛 por
             <a href="https://www.linkedin.com/in/cecilia-perdomo/" target="_blank">
                 Cecilia
             </a>

@@ -31,3 +31,7 @@
 
 /* Olvido de contraseña */
 @import url('./auth/olvido.css');
+
+
+/* Carrito de compras */
+@import url('./carrito.css');
