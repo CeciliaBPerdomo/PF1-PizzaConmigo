@@ -132,6 +132,24 @@ body>header>form>nav a {
     font-weight: 400;
 }
 
+header > section {
+    margin-top: -2.5rem; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+header > section nav {
+    display: flex;
+    gap: 2rem; 
+    padding-bottom: 0.5rem;
+}
+
+
+header > section nav a:hover {
+    color: var(--botones);
+}
+
 /* Responsive */
 @media (max-width:1032px) {
     body>header>nav {
@@ -182,4 +200,10 @@ body>header>form>nav a {
         width: 200px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
+
+    header > section nav {
+        display: none;
+    }
+    
+    
 }

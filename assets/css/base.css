@@ -33,6 +33,11 @@ html {
   align-items: center;
   background-color: var(--fondo);
   overflow-x: hidden;
+
+  /* Scroll */
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  scroll-snap-type: y proximity;
 }
 
 img {
