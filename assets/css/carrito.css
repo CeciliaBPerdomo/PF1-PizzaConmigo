@@ -97,3 +97,85 @@
     transform: scale(1.05);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsive para celulares */
+@media (max-width: 768px) {
+    #carrito {
+        width: 65vw; 
+        top: 5rem; 
+        padding: 1.5rem 1rem;
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    #carrito ul {
+        max-height: 50vh; 
+    }
+
+    #carrito ul li {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    #carrito ul li picture {
+        height: 6rem; 
+    }
+
+    #carrito ul li dl {
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    #carrito ul li fieldset {
+        gap: 0.5rem;
+    }
+
+    #carrito ul li fieldset button {
+        width: 1.75rem; 
+    }
+
+    #confirmar {
+        width: 100%; 
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #carrito {
+        width: 40vw; 
+        top: 5rem; 
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+    }
+
+    #carrito ul {
+        max-height: 60vh; 
+    }
+
+    #carrito ul li {
+        flex-direction: row; 
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    #carrito ul li picture {
+        height: 7rem; 
+    }
+
+    #carrito ul li fieldset {
+        gap: 1rem;
+    }
+
+    #carrito ul li fieldset button {
+        width: 2rem; 
+    }
+
+    #confirmar {
+        width: 90%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
