@@ -44,7 +44,7 @@
     padding: 1rem 2rem 1rem 4rem;
     height: 5rem;
     border-radius: 3rem;
-    border: 0.05rem solid #F2B3AE;
+    border: 0.05rem solid var(--fondo-alternativo);
     flex: 1;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
 }
 
 #destacados form label:hover {
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -72,17 +72,17 @@
     justify-content: center;
     font-size: 1.5rem;
     border-radius: 50%;
-    background-color: #fffcf5;
-    border: 0.05rem solid #F2B3AE;
+    background-color: var(--fondo);
+    border: 0.05rem solid var(--fondo-alternativo);
     position: absolute;
-    left: -0.1rem; 
+    left: -0.1rem;
     top: 50%;
     transform: translateY(-50%);
     background-color: white;
 }
 
 #destacados form label:hover::before {
-    background-color: #f5ebeb;
+    background-color: var(--emoji);
     color: white;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }

@@ -1,6 +1,6 @@
 body>footer {
-    width: 100vw;
-    background-color: #F2B3AE;
+    width: 100%;
+    background-color: var(--fondo-alternativo);
 
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body>footer {
 hr {
     border: none;
     height: 1px;
-    background-color: #d97872;
+    background-color: var(--botones);
     margin: 1rem auto;
     width: 80%;
 }

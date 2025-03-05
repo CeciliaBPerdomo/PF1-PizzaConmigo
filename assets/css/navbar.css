@@ -16,8 +16,8 @@ body:has(#navbar input[type="checkbox"]:checked)::before {
 }
 
 body>header {
-    width: 100vw;
-    background-color: #FFFCF5;
+    width: 100%;
+    background-color: var(--fondo);
 
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,7 @@ body>header>form label {
 }
 
 body>header>form label svg {
-    fill: var(--text-white);
+    fill: black;
     width: 100%;
     height: 100%;
 }
@@ -172,7 +172,7 @@ body>header>form>nav a {
     #btnMenu:checked~nav {
         display: flex;
         transform: translateX(0);
-        background-color: #FFFCF5;
+        background-color: var(--fondo);
         position: absolute;
         top: 4rem;
         right: 0;

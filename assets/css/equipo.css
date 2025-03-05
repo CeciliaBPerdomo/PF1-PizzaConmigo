@@ -26,9 +26,9 @@
     text-align: center;
     padding: 0.5rem 1.25rem;
     border-radius: 1.5rem;
-    border: 0.1rem solid #F25135;
+    border: 0.1rem solid var(--botones);
     background-color: transparent;
-    color: #F25135;
+    color: var(--botones);
 }
 
 #equipo header>a:hover {

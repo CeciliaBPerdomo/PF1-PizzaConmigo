@@ -28,9 +28,9 @@ body>main {
     align-self: flex-start;
     padding: 0.5rem 1.25rem;
     border-radius: 1.5rem;
-    border: 0.1rem solid #F25135;
+    border: 0.1rem solid var(--botones);
     background-color: transparent;
-    color: #F25135;
+    color: var(--botones);
 }
 
 #content-hero a svg {
@@ -51,7 +51,7 @@ body>main {
     align-self: center;
     padding: 0.75rem 1.25rem;
     border-radius: 1.5rem;
-    background-color: #F25135;
+    background-color: var(--botones);
     color: white;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

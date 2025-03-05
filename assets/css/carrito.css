@@ -1,8 +1,9 @@
 #carrito {
     position: fixed;
     right: 0;
-    top: 6rem;
-    background-color: white;
+    top: 5.85rem;
+    background-color: var(--fondo);
+    border-radius: 0.5rem;
     min-height: 100dvh;
     padding: 2rem 1rem;
     display: flex;
@@ -10,7 +11,7 @@
     align-items: flex-start;
     gap: 1rem;
     width: 25vw;
-    transform: translateX(100%); 
+    transform: translateX(100%);
     transition: all 250ms ease-out;
 }
 
@@ -72,11 +73,11 @@
     font-weight: 800;
 }
 
-#carrito ul li fieldset output{
+#carrito ul li fieldset output {
     font-weight: 800;
 }
 
-#btnCarrito:checked ~ #carrito {
+#btnCarrito:checked~#carrito {
     transform: translateX(0);
 }
 
@@ -86,7 +87,7 @@
     align-self: center;
     padding: 0.75rem 1.25rem;
     border-radius: 1.5rem;
-    background-color: #F25135;
+    background-color: var(--botones);
     color: white;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

@@ -1,5 +1,5 @@
 #productos {
-    width: 1800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     gap: 1rem;
     padding: 1rem;
     padding-bottom: 3rem;
-    background-color: #F2B3AE;
+    background-color: var(--fondo-alternativo);
 }
 
 #productos header {
@@ -91,13 +91,13 @@
 }
 
 #productos>ul>li>ul>li.info h3 {
-    color: var(--text-white);
+    color:black;
     font-weight: 800;
     font-size: 1.25rem;
 }
 
 #productos>ul>li>ul>li.info p {
-    color: var(--text-white);
+    color: black;
 }
 
 #productos>ul>li>ul>li.cart button {
@@ -177,8 +177,8 @@
 @media (min-width: 769px) and (max-width: 1100px) {
     #productos {
         width: 100%;
-        max-width: 1024px; /* Limita el ancho para centrar el contenido */
-        margin: 0 auto; /* Centrar en la pantalla */
+        max-width: 1024px;
+        margin: 0 auto; 
         padding: 2rem;
         display: flex;
         flex-direction: column;
