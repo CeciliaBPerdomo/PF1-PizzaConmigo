@@ -1,7 +1,7 @@
 @import url('../base.css');
-    
+
 #register {
-    width: 1092px;
+    width: 70%;
     margin-top: 1rem;
     display: flex;
     flex-flow: row wrap;
