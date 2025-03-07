@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    border: 0.1rem solid #F25135;
+    border: 0.1rem solid var(--botones);
     border-radius: 1rem;
     box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.1);
 }
@@ -49,16 +49,55 @@
 #olvido-form input {
     font-size: 1rem;
     padding: 0.5rem;
-    border: 0.1rem solid #ccc;
+    border: 0.1rem solid var(--inputs);
     border-radius: 0.5rem;
 }
 
 #olvido-form button {
     font-size: 1rem;
     padding: 0.5rem;
-    border: 0.1rem solid #F25135;
+    border: 0.1rem solid var(--botones);
     border-radius: 0.5rem;
-    background-color: #F25135;
+    background-color: var(--botones);
     color: white;
     cursor: pointer;
+}
+
+
+
+/* Volver al home */
+#back-to-home {
+    position: fixed;
+    top: 1.5rem;
+    right: 2rem;
+    z-index: 9;
+}
+
+
+#back-to-home .back-link svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--botones);    
+}
+
+#back-to-home .back-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+    border: 0.1rem solid white;
+}
+
+#back-to-home .back-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0.1rem solid var(--botones);
+}
+
+.register-link a {
+    color: orangered;
+    font-weight: 500;
 }
