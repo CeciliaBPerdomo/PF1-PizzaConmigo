@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    By <b>Cecilia Perdomo<b>
+    By ❤️ <b>Cecilia Perdomo<b>
 </p>
 
 # Proyecto Final del Módulo de HTML y CSS
