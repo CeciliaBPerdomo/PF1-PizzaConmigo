@@ -70,14 +70,12 @@ body>main {
     padding: 1rem;
     border-radius: 1rem;
     gap: 1rem;
-}
 
-#card-hero>picture img {
-    padding-top: 3rem;
     opacity: 0;
     transform: translateX(4rem);
-    animation: slideLeft 1s ease-out 200ms 1 forwards;
+    animation: slideLeft 1s ease-out 500ms 1 forwards;
 }
+
 
 /* Responsive para tablets */
 @media (max-width: 1100px) and (min-width: 769px) {

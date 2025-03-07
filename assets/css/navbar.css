@@ -21,9 +21,9 @@ body>header {
 
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 0.75rem;
 
     position: fixed;
@@ -86,7 +86,7 @@ body>header>nav a:hover::after {
 }
 
 /* Imagen */
-body>header>a picture img {
+body>header>a  img {
     width: 4rem;
     text-decoration: none;
 }
@@ -103,8 +103,6 @@ body>header>form {
 body>header>form input[type='checkbox'] {
     display: none;
 }
-
-/* > hijo directo*/
 
 body>header>form label {
     width: 2rem;
@@ -132,23 +130,14 @@ body>header>form>nav a {
     font-weight: 400;
 }
 
-header > section {
-    margin-top: -2.5rem; 
-    width: 100%;
+#menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    justify-content: center; 
+    gap: 2rem;
 }
 
-header > section nav {
-    display: flex;
-    gap: 2rem; 
-    padding-bottom: 0.5rem;
-}
-
-
-header > section nav a:hover {
-    color: var(--botones);
-}
 
 /* Responsive */
 @media (max-width:1032px) {
@@ -201,7 +190,7 @@ header > section nav a:hover {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
-    header > section nav {
+    #menu {
         display: none;
     }
     

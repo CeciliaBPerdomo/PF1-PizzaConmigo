@@ -22,16 +22,5 @@
 /* Footer */
 @import url('./footer.css');
 
-
-/* Login */
-@import url('./auth/login.css');
-
-/* Register */
-@import url('./auth/registro.css');
-
-/* Olvido de contraseña */
-@import url('./auth/olvido.css');
-
-
 /* Carrito de compras */
 @import url('./carrito.css');

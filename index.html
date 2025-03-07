@@ -12,13 +12,17 @@
     <!-- Navbar -->
     <header>
         <a href="/" alt="logo" id="logo_container">
-            <picture>
-                <img src="./assets/images/logo.png" alt="logo" class="img_logo">
-            </picture>
+            <img src="./assets/images/logo.png" alt="logo" class="img_logo">
             <p>Pizza conmigo</p>
         </a>
 
-        <nav>
+        <nav id="menu">
+            <a title="Nuestras pizzas" href="#productos">Nuestras pizzas</a>
+            <a title="Nuestro equipo" href="#equipo">Nuestro equipo</a>
+            <a title="Contacto" href="#contacto">Contacto</a>
+        </nav>
+
+        <nav id="auth">
             <a title="Sección de inicio de sesión" href="./auth/inicio.html">Iniciar sesión</a>
             <a title="Sección de registro" href="./auth/registro.html">Registrarse</a>
         </nav>
@@ -46,6 +50,10 @@
             <nav>
                 <a title="Sección de inicio de sesión" href="./auth/inicio.html">Iniciar sesión</a>
                 <a title="Sección de registro" href="./auth/registro.html">Registrarse</a>
+                <hr>
+                <a title="Nuestras pizzas" href="#productos">Nuestras pizzas</a>
+                <a title="Nuestro equipo" href="#equipo">Nuestro equipo</a>
+                <a title="Contacto" href="#contacto">Contacto</a>
             </nav>
 
             <!-- Responsive del carrito-->
@@ -74,13 +82,6 @@
             </section>
         </form>
 
-        <section id="menu">
-            <nav>
-                <a href="#productos">Nuestras pizzas</a>
-                <a href="#equipo">Nuestro equipo</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-        </section>
     </header>
 
     <!-- Hero -->
@@ -107,11 +108,11 @@
             <a href="#">Pedir ahora!</a>
         </article>
 
-        <article id="card-hero">
-            <picture>
-                <img src="./assets/images/hero.png" alt="Pizza">
-            </picture>
-        </article>
+
+        <picture id="card-hero">
+            <img src="./assets/images/hero.webp" alt="Pizza">
+        </picture>
+
     </main>
 
     <!-- Destacados -->
@@ -136,7 +137,7 @@
         <ul>
             <li>
                 <picture>
-                    <img src="./assets/images/pizzas/pizza1.png" alt="Pizza">
+                    <img src="./assets/images/pizzas/pizza1.webp" alt="Pizza">
                 </picture>
                 <ul>
                     <li class="info">
@@ -153,7 +154,7 @@
 
             <li>
                 <picture>
-                    <img src="./assets/images/pizzas/pizza2.png" alt="Pizza">
+                    <img src="./assets/images/pizzas/pizza2.webp" alt="Pizza">
                 </picture>
                 <ul>
                     <li class="info">
@@ -170,7 +171,7 @@
 
             <li>
                 <picture>
-                    <img src="./assets/images/pizzas/pizza3.png" alt="Pizza">
+                    <img src="./assets/images/pizzas/pizza3.webp" alt="Pizza">
                 </picture>
                 <ul>
                     <li class="info">
@@ -187,7 +188,7 @@
 
             <li>
                 <picture>
-                    <img src="./assets/images/pizzas/pizza4.png" alt="Pizza">
+                    <img src="./assets/images/pizzas/pizza4.webp" alt="Pizza">
                 </picture>
                 <ul>
                     <li class="info">
@@ -216,7 +217,7 @@
         <ul>
             <li>
                 <picture>
-                    <img src="./assets/images/jorge.jpg" alt="info-icon">
+                    <img src="./assets/images/jorge.webp" alt="info-icon">
                 </picture>
                 <article>
                     <h3>Jorge Pepperonni</h3>
@@ -242,7 +243,7 @@
 
             <li>
                 <picture>
-                    <img src="./assets/images/luis.jpg" alt="info-icon">
+                    <img src="./assets/images/luis.webp" alt="info-icon">
                 </picture>
                 <article>
                     <h3>Luis Capresse</h3>
@@ -268,7 +269,7 @@
 
             <li>
                 <picture>
-                    <img src="./assets/images/carlos.jpg" alt="info-icon">
+                    <img src="./assets/images/carlos.webp" alt="info-icon">
                 </picture>
                 <article>
                     <h3>Carlos Masamadre</h3>
@@ -365,7 +366,7 @@
             </section>
         </section>
         <hr>
-        <p>Hecho con 💛 por
+        <p>Hecho con ❤️ por
             <a href="https://www.linkedin.com/in/cecilia-perdomo/" target="_blank">
                 Cecilia
             </a>
